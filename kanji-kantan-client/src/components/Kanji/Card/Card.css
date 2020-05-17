@@ -1,0 +1,73 @@
+/* .cartContainer{
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+} */
+.button{
+  width: 100%;
+}
+.buttonOver{
+  padding: 7px;
+}
+
+.frontCard{
+  display: flex;
+  width: 100%;
+  height: 400px;
+  border: 1px solid #00897b;
+  border-radius: 5px;
+  background-color: rgba(255, 251, 251, 1);
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.backCard{
+  display: flex;
+  width: 100%;
+  height: 400px;
+  border: 1px solid #00897b;
+  border-radius: 5px;
+  background-color: rgba(255, 251, 251, 1);
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.2s ease;
+  transform: rotateY(180deg);
+}
+
+.deactive{
+  display: none;
+}
+
+.back {
+  transform: rotatey(180deg);
+}
+
+.active {
+  display: block;
+  transform: rotatey();
+}
+
+.frontKanji, .backKanji{
+  color: rgb(0, 68, 255);
+  font-size: 4.3em;
+}
+
+.backYomi{
+  color: #333;
+  font-size: 1.3em;
+}
+
+.backRefer{
+  color: #333;
+  font-size: 1.3em;
+}
+
+.backContent{
+  color: #333;
+  font-size: 1.3em;
+}
