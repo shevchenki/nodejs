@@ -4,7 +4,7 @@
   "private": true,
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --mode development --inline --config webpack.dev.js --open",
+    "start": "webpack-dev-server --mode development --open",
     "build": "webpack --mode production"
   },
   "dependencies": {
@@ -54,7 +54,6 @@
     "webpack": "^4.40.2",
     "webpack-cli": "^3.3.8",
     "webpack-dev-server": "^3.8.1",
-    "webpack-manifest-plugin": "^2.2.0",
-    "webpack-merge": "^4.2.2"
+    "webpack-manifest-plugin": "^2.2.0"
   }
 }
