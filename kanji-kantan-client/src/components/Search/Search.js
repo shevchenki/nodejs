@@ -38,7 +38,7 @@ const useStyles = makeStyles({
         marginLeft: 15,
         borderRadius: 25,
         textAlign: 'center',
-        backgroundColor: "#4D81ED",
+        backgroundColor: "#F37727",
         border: '1px solid none',
     },
     search: {
@@ -83,7 +83,7 @@ const useStyles = makeStyles({
     dialogTitle: {
         width: 400,
         color: '#fff',
-        backgroundColor: "#4D81ED",
+        backgroundColor: "#F37727",
     },
     container: {
         maxHeight: 300,
@@ -94,7 +94,7 @@ const useStyles = makeStyles({
 const BootstrapInput = withStyles((theme) => ({
     input: {
         // position: 'relative',
-        backgroundColor: "#4D81ED",
+        backgroundColor: "#F37727",
         border: '1px solid none',
         borderRadius: 25,
         color: '#fff',
@@ -240,7 +240,7 @@ export default function Search() {
                                         aria-label="search"
                                         onClick={() => onAddToLearn()}
                                     >
-                                        <AddCircleIcon style={{ color: "#4D81ED" }} />
+                                        <AddCircleIcon style={{ color: "#F37727" }} />
                                     </IconButton>
                                     <Dialog onClose={handleClose} aria-labelledby="customized-dialog-title" open={open}>
                                         <DialogTitle className={classes.dialogTitle}>
@@ -260,7 +260,7 @@ export default function Search() {
                                                                         onClick={() => onAddToLearn()}
                                                                         style={{ padding: 0, margin: 0 }}
                                                                     >
-                                                                        <NoteAddIcon style={{ color: "#4D81ED" }} />
+                                                                        <NoteAddIcon style={{ color: "#F37727" }} />
                                                                     </IconButton>
                                                                 </TableCell>
                                                             </TableRow>

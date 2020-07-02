@@ -24,7 +24,7 @@ const useStyles = makeStyles((theme) => ({
     toolbar: {
         paddingTop: 10,
         paddingBottom: 10,
-        backgroundColor: "#4D81ED",
+        backgroundColor: "#F37727",
     },
     loginBtn: {
         flexDirection: "row-reverse",

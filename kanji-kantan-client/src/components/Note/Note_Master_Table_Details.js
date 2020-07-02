@@ -91,7 +91,7 @@ export default function Note_Master_Table_Details(props) {
                                 onClick={() => handleGoToLesson(index)}
                             >
                                 <ArrowForwardIcon
-                                    style={{ color: "#4D81ED" }}
+                                    style={{ color: "#F37727" }}
                                 />
                             </IconButton>
                         </TableCell> */}
@@ -123,7 +123,7 @@ export default function Note_Master_Table_Details(props) {
                                     <IconButton
                                         aria-label="go to lesson"
                                         // onClick={() => handleGoToLesson(index)}
-                                        style={{ color: "#4D81ED", padding: 0, margin: 0 }}
+                                        style={{ color: "#F37727", padding: 0, margin: 0 }}
                                     >
                                         <NoteAddIcon
                                         />

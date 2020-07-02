@@ -90,7 +90,7 @@ export default function N1_Lesson_Master_Table(props) {
                                 onClick={() => handleGoToLesson(index)}
                             >
                                 <ArrowForwardIcon
-                                    style={{ color: "#4D81ED" }}
+                                    style={{ color: "#F37727" }}
                                 />
                             </IconButton>
                         </TableCell>
