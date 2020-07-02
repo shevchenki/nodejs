@@ -33,10 +33,10 @@ npm start
 ![](kanji_flag.png)
 
 ### 3. Vocabulary
-![](vocabulary.png)
+![](vocabulary.PNG)
 
 ### 4. Grammar
-![](grammar.png)
+![](grammar.PNG)
 
 ### 5. Check logs Express API
 ![](logs_api.png)
